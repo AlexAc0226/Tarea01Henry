@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://th.bing.com/th/id/R.7f4929345882699c6f4d49b049ca8ecc?rik=L8klwl97C8tjlg&riu=http%3a%2f%2fwww.enlared.biz%2fwp-content%2fuploads%2f2012%2f07%2ffondos-gratis-para-tu-pagina-web.jpg&ehk=0m5%2bzLNGkk2zCvOYUO6GRq8tWgLXWdPW3pG8XShvdoA%3d&risl=&pid=ImgRaw&r=0');
+}
+
+.container{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    background: none;
+	outline: 1px solid yellow;
+	min-height: 80vh;
+	width: 50%;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+.container div{
+    padding: 10px;
+
+}
+
+#thirDiv {
+    height: 400px;
+    width: 100%;
+    background-color: gainsboro;
+    padding: 50px;
+    border: 5px inset #00E008;
+}
+#thinDiv, img{
+    width: 450px;
+}
+
+.divClass {
+    color: #74E008;
+    text-align: center;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    color: white;
+}
